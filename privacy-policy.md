@@ -1,6 +1,6 @@
 # Privacy Policy — GST / HST Calculator
 
-**Last updated: May 17, 2026**
+Last updated: May 17, 2026
 
 ## Overview
 
@@ -8,7 +8,7 @@ GST / HST Calculator is a free Chrome extension built by Rivlosys. We are commit
 
 ## Data Collection
 
-This extension does **not** collect any personal information. Specifically:
+This extension does not collect any personal information. Specifically:
 
 - No names, emails, or contact details are collected
 - No browsing history is recorded
@@ -17,19 +17,28 @@ This extension does **not** collect any personal information. Specifically:
 
 ## Local Storage
 
-The extension saves only one item locally on your device:
+The extension stores a minimal preference locally on your device:
 
-- **Your selected province** — so you don't have to reselect it each time
+- Your selected province — so you don't have to reselect it each time
 
 This data never leaves your device and is never transmitted anywhere.
 
 ## Page Access
 
-When you click "Auto-detect prices", the extension temporarily reads visible text on the current page to find dollar amounts. This data is:
+When you explicitly click the "Auto-detect prices" button, the extension temporarily reads visible text on the active webpage to identify dollar amounts. This data is:
 
 - Processed locally in your browser only
 - Never stored
 - Never transmitted
+
+## Permissions Usage
+
+The extension uses limited Chrome permissions to function correctly:
+
+- activeTab: Allows access to the currently active webpage only when the user interacts with the extension
+- scripting: Enables processing of visible page content when the auto-detect feature is used
+
+These permissions are used strictly for functionality and do not allow background tracking or data collection.
 
 ## Third Party Services
 
